@@ -4,7 +4,7 @@ metadata:
   name: my-django-app-ingress
 spec:
   rules:
-    - host: your.domain.com  # Replace with your domain or public IP
+    - host: myapp.com  
       http:
         paths:
           - path: /
